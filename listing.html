@@ -1,0 +1,705 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+   
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+ <title>Listing</title>
+
+</head>
+<body>
+
+        <!--Navigation Bar-->
+ <div class="bs-example shadow-sm" style="padding-right: 200px;background-color: coral;">
+    <nav class="navbar navbar-expand-md navbar-light ">
+      <a class="navbar-brand" href="#">
+        <img alt="logo" src="img/logo.PNG" style="height: 120px;">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+       
+       <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav ml-auto">
+
+                 <!--Home button-->
+                <li class="nav-item active">
+                    <a href="#" style="font-weight: bold; font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54);" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                </li>
+
+                 <!--Offers button-->
+                <li class="nav-item">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link">Profile</a>
+                </li>
+
+                 <!--Restaurants button-->
+                <li class="nav-item dropdown">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54) " class="nav-link dropdown-toggle" data-toggle="dropdown">Restaurants</a>
+                    
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Listing</a>
+                        <a href="#" class="dropdown-item">Details + Cart</a>
+                        <a href="#" target="_blank" class="dropdown-item">Checkout</a>
+                    </div>
+                </li>
+
+                  <!--Pages button-->
+                  <li class="nav-item dropdown">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Track Order</a>
+                        <a href="#" class="dropdown-item">Invoice</a>
+                        <a href="#" class="dropdown-item">Login</a>
+                        <a href="#" class="dropdown-item">Register</a>
+                        <a href="#" class="dropdown-item">404</a>
+                        <a href="#" class="dropdown-item">Extra :)</a>
+                    </div>
+                </li>
+
+                 <!--My Account-->
+                 <li class="nav-item dropdown">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link dropdown-toggle" data-toggle="dropdown">My Account</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Orders</a>
+                        <a href="#" class="dropdown-item">Offers</a>
+                        <a href="#" class="dropdown-item">Favourites</a>
+                        <a href="#" class="dropdown-item">Payments</a>
+                        <a href="#" class="dropdown-item">Addresses</a>
+                    </div>
+                </li>
+
+              
+
+                   <!--Cart-->
+                   <li class="nav-item dropdown"  >
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Cart</a>
+                    <div class="dropdown-menu" >
+                        <a href="#" class="dropdown-item"><b>Arby's World Famous Chicken</b><br> 59 S Hillcroft ,Housto,Tx, USA<br>View Full Menu</a>
+
+                        <div class="dropdown-divider" ></div>
+                        <p style="padding:10px;color:indianred;">Chicken Tikka Sub 12"(30cm)*1        $314</p>
+                        <p style="padding:10px;color:indianred">Corn & Peas Salad*1                  $209</p>
+                        <p style="padding:10px;color:indianred">Veg Seekh Sub 6"(15cm)*1             $133</p>
+                        <p style="padding:10px;color:indianred">Chicken Tikka Sub 12"(30cm)*1        $314</p>
+                        <p style="padding:10px;color:indianred">Corn & Peas Sald*1                   $209</p>
+
+                        <div class="dropdown-divider"></div>
+                        <p style="padding:10px">Sub Total<br>Extra charges may apply</p>
+
+                        <div class="dropdown-divider"></div>
+                        <div class="text-center">
+                          <button type="button"  class="btn btn-secondary ">Checkout</button>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+<!--Section 1-->
+
+<section class=" pt-5 pb-5  text-center" style="background-color: gray; ">
+    <h1 style="color: white; letter-spacing: 3px; ">Offers Near You</h1>
+    <h6 style="color: white; letter-spacing: 5px;">Best deals at your favourite Restaurants</h6>
+ </section>
+
+
+
+ <!--Section 2-->
+
+<section style="margin-top: 55px;  padding-bottom: 15px;">
+    <div class="dropdown float-right">
+      
+     <a class="btn btn-outline-info dropdown-toggle " style="margin-right: 20px;" href="#" role="button" data-toggle="dropdown"  >
+       Sort by: <span>Distance</span> 
+       </a>
+
+       <div class="dropdown-menu dropdown-menu-right shadow-sm border-0">
+          <a class="dropdown-item" href="#">Distance</a>
+          <a class="dropdown-item" href="#">No Of Offers</a>
+          <a class="dropdown-item" href="#">Rating</a>
+       </div>
+
+    </div>
+    <h4 style="font-weight: bold; padding-left: 20px;">OFFERS <small style="font-weight: lighter; color: rgb(53, 50, 50);" >299 restaurants
+       </small>
+    </h4>
+   </section>
+
+
+   <!--Left search column-->
+
+<section>
+    <div class="container" style="margin-left: 15px; margin-top: 20px; position: absolute; left: 0px;width: 20%;">
+    
+       
+       <h5 style="font-weight: bold;">Filter By :</h5>
+  
+  
+       <!--1First-->
+       <button  type="button" class="btn btn-success " 
+       data-toggle="collapse" data-target=".myclass" style="background-color:ivory; color: rgb(38, 133, 165); border:  rgb(45, 157, 194) 2px solid;  border-radius: 25px; width: 150px; font-weight: bold;" >
+       Location    <span style="margin-left: 5px;" class="caret"></span></button>
+  
+      
+  
+  <div style="width:200px   ">
+       <!--first-->
+       <div class="collapse myclass" >
+        <div class="custom-control custom-checkbox">
+           <input type="checkbox" class="custom-control-input" id="defaultChecked1" >
+           <label class="custom-control-label" for="defaultChecked1">Houston Texas<span style="font-size:15px;color: darkcyan; padding-left: 5px;">230</span></label>
+         </div>
+     </div>
+  
+      <!--second -->
+      <div class="collapse myclass" >
+        <div class="custom-control custom-checkbox" >
+           <input  type="checkbox" class="custom-control-input" id="defaultChecked2"  >
+           <label class="custom-control-label" for="defaultChecked2">Model Town<span style="font-size:15px; padding-left: 5px;">95</span></label>
+         </div>
+     </div>
+  
+      <!--third-->
+      <div class="collapse myclass" >
+        <div class="custom-control custom-checkbox">
+           <input type="checkbox" class="custom-control-input" id="defaultChecked3" >
+           <label class="custom-control-label" for="defaultChecked3">Civil Lines<span style="font-size:15px; padding-left: 5px;">35</span></label>
+         </div>
+     </div>
+  
+      <!--fourth-->
+      <div class="collapse myclass" >
+        <div class="custom-control custom-checkbox">
+           <input type="checkbox" class="custom-control-input" id="defaultChecked4" >
+           <label class="custom-control-label" for="defaultChecked4">Dugri<span style="font-size:15px; padding-left: 5px;">46</span></label>
+         </div>
+     </div>
+  
+   <!--fifth-->
+     <div class="collapse myclass" >
+        <div class="custom-control custom-checkbox">
+           <input type="checkbox" class="custom-control-input" id="defaultChecked5" >
+           <label class="custom-control-label" for="defaultChecked5">pau<span style="font-size:15px; padding-left: 5px;">20</span></label>
+         </div>
+     </div>
+  
+  </div>
+
+
+
+  <!--2second-->
+
+  <button type="button" class="btn btn-success"
+     data-toggle="collapse" data-target=".myclass1" style="background-color:ivory; color: rgb(45, 157, 194); border: rgb(45, 157, 194) 2px solid; border-radius: 25px; width: 150px; font-weight: bold; margin-top: 2px;">
+     All Cuisines <span style="margin-left: 5px;" class="caret"></span></button>
+
+    
+
+<div style=" width:200px ;  ">
+
+     <!--first-->
+     <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked6" >
+         <label class="custom-control-label" for="defaultChecked6">American<span style="font-size:15px; padding-left: 5px;">156</span></label>
+       </div>
+   </div>
+
+    <!--second -->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox" >
+         <input  type="checkbox" class="custom-control-input" id="defaultChecked7"  >
+         <label class="custom-control-label" for="defaultChecked7">Pizza<span style="font-size:15px; padding-left: 5px;">120</span></label>
+       </div>
+   </div>
+
+    <!--third-->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked8" >
+         <label class="custom-control-label" for="defaultChecked8">Helthy<span style="font-size:15px; padding-left: 5px;">130</span></label>
+       </div>
+   </div>
+
+    <!--fourth-->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked9" >
+         <label class="custom-control-label" for="defaultChecked9">Vegetarian<span style="font-size:15px; padding-left: 5px;">120</span></label>
+       </div>
+   </div>
+
+ <!--fifth-->
+   <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked10" >
+         <label class="custom-control-label" for="defaultChecked10">Chinese<span style="font-size:15px; padding-left: 5px;">111</span></label>
+       </div>
+   </div>
+
+    <!--six-->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked11" >
+         <label class="custom-control-label" for="defaultChecked11">Hamburgers<span style="font-size:15px; padding-left: 5px;">95</span></label>
+       </div>
+   </div>
+
+    <!--sevem-->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked12" >
+         <label class="custom-control-label" for="defaultChecked12">Dessert<span style="font-size:15px; padding-left: 5px;">50</span></label>
+       </div>
+   </div>
+
+    <!--eight-->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked13" >
+         <label class="custom-control-label" for="defaultChecked13">Chicken<span style="font-size:15px; padding-left: 5px;">32</span></label>
+       </div>
+   </div>
+
+    <!--nine-->
+    <div class="collapse myclass1" >
+      <div class="custom-control custom-checkbox">
+         <input type="checkbox" class="custom-control-input" id="defaultChecked14" >
+         <label class="custom-control-label" for="defaultChecked14">Indian<span style="font-size:15px; padding-left: 5px;">156</span></label>
+       </div>
+   </div>
+
+</div>
+
+
+
+
+<!--3Third-->
+
+
+<button type="button" class="btn btn-success"
+data-toggle="collapse" data-target=".myclass2" style="background-color: white; color: rgb(45, 157, 194); border: rgb(45, 157, 194) 2px solid;  border-radius: 25px; width: 150px; font-weight: bold; margin-top: 2px;">
+Feature<span style="margin-left: 5px;" class="caret"></span></button>
+
+<div style=" width:200px ;  ">
+
+   <!--first-->
+   <div class="collapse myclass2" >
+    <div class="custom-control custom-checkbox">
+       <input type="checkbox" class="custom-control-input" id="defaultChecked15" >
+       <label class="custom-control-label" for="defaultChecked15">Free Dilevery<span style="font-size:10px; padding-left: 5px;">156</span></label>
+     </div>
+ </div>
+
+  <!--second -->
+  <div class="collapse myclass2" >
+    <div class="custom-control custom-checkbox" >
+       <input  type="checkbox" class="custom-control-input" id="defaultChecked16"  >
+       <label class="custom-control-label" for="defaultChecked16">Coupens <span style="font-size:10px; padding-left: 5px;">120</span></label>
+     </div>
+ </div>
+
+  <!--third-->
+  <div class="collapse myclass2  " >
+    <div class="custom-control custom-checkbox">
+       <input type="checkbox" class="custom-control-input" id="defaultChecked17" >
+       <label class="custom-control-label" for="defaultChecked17">Open Now[1:31am]<span style="font-size:10px; padding-left: 5px;">85</span></label>
+     </div>
+ </div>
+
+  
+
+</div>
+
+
+
+
+
+<!--4Fourth-->
+
+
+<button type="button" class="btn btn-success"
+data-toggle="collapse" data-target=".myclass3" style="background-color: white; color: rgb(45, 157, 194); border: rgb(45, 157, 194) 2px solid;  border-radius: 25px; width: 150px; font-weight: bold; margin-top: 2px;">
+Delivery Time<span style="margin-left: 5px;" class="caret"></span></button>
+
+<div style=" width:200px ;  ">
+
+   <!--first-->
+   <div class="collapse myclass3" >
+    <div class="custom-control custom-checkbox">
+       <input type="checkbox" class="custom-control-input" id="defaultChecked18" >
+       <label class="custom-control-label" for="defaultChecked18">Anytime</label>
+     </div>
+ </div>
+
+  <!--second -->
+  <div class="collapse myclass3" >
+    <div class="custom-control custom-checkbox" >
+       <input  type="checkbox" class="custom-control-input" id="defaultChecked19"  >
+       <label class="custom-control-label" for="defaultChecked19">25 min </label>
+     </div>
+ </div>
+
+  <!--third-->
+  <div class="collapse myclass3  " >
+    <div class="custom-control custom-checkbox">
+       <input type="checkbox" class="custom-control-input" id="defaultChecked20" >
+       <label class="custom-control-label" for="defaultChecked20">30 min</label>
+     </div>
+ </div>
+
+  <!--Fourth-->
+  <div class="collapse myclass3  " >
+   <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="defaultChecked21" >
+      <label class="custom-control-label" for="defaultChecked21">40 min</label>
+    </div>
+</div>
+
+ <!--Fifth-->
+ <div class="collapse myclass3  " >
+   <div class="custom-control custom-checkbox">
+      <input type="checkbox" class="custom-control-input" id="defaultChecked22" >
+      <label class="custom-control-label" for="defaultChecked22">50 min</label>
+    </div>
+</div>
+
+
+
+</div>
+
+
+<!--5 ifth-->
+
+<button type="button" class="btn btn-success"
+data-toggle="collapse" data-target=".myclass5" style="background-color: white; color: rgb(45, 157, 194);  border: rgb(45, 157, 194) 2px solid;  border-radius: 25px; width: 150px; font-weight: bold; margin-top: 2px;">
+Category<span style="margin-left: 5px;" class="caret"></span></button>
+
+<div style=" width:200px ;  ">
+
+   <!--first-->
+   <div class="collapse myclass5" >
+    <div class="custom-control custom-checkbox">
+       <input type="checkbox" class="custom-control-input" id="defaultChecked23" >
+       <label class="custom-control-label" for="defaultChecked23">Dilevery<span style="font-size:10px; padding-left: 5px;">156</span></label>
+     </div>
+ </div>
+
+  <!--second -->
+  <div class="collapse myclass5" >
+    <div class="custom-control custom-checkbox" >
+       <input  type="checkbox" class="custom-control-input" id="defaultChecked24"  >
+       <label class="custom-control-label" for="defaultChecked24">Dine Out <span style="font-size:10px; padding-left: 5px;">120</span></label>
+     </div>
+ </div>
+
+  <!--third-->
+  <div class="collapse myclass5  " >
+    <div class="custom-control custom-checkbox">
+       <input type="checkbox" class="custom-control-input" id="defaultChecked25" >
+       <label class="custom-control-label" for="defaultChecked25">Cafe<span style="font-size:10px; padding-left: 5px;">85</span></label>
+     </div>
+ </div>
+
+  
+
+</div>
+</div>
+
+
+<!--Images slider-->
+   
+<div id="outerbox">
+  <div id ="sliderbox">
+    <img src ="img/m1.jpg"/>
+    <img src ="img/m2.jpg"/>
+    <img src ="img/m3.jpg"/>
+    <img src ="img/m4.jpg"/>
+    <img src ="img/m5.jpg"/>
+    <img src ="img/m3.jpg"/>
+    <img src ="img/m4.jpg"/>
+    <img src ="img/m5.jpg"/>
+    <img src ="img/m2.jpg"/>
+    <img src ="img/m1.jpg"/>
+  </div>
+</div>
+</div>
+
+<!--section 4 promotion images-->
+
+<div class ="popular_container">
+  <div class="container">
+    <div class="row">
+     <div class="col-md-4">
+      <div class="image_wrapper1">
+        <img src="img/d1.jpg">
+        <div class="top-left">Promoted</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; ">World Famous </h1>
+          <p>Houston--Texas--* Pure veg</p>
+          <p><i class="fa fa-clock-o" aria-hidden="true">  25-30 min Delivery</i> </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="image_wrapper1">
+        <img src="img/d2.jpg">
+        <div class="top-left">Promoted</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; "> Signature Dish </h1>
+          <p>Houston's Famous Steak </p>
+          <p>  <i class="fa fa-star-o" aria-hidden="true"></i> Chef's Special </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4">
+      <div class="image_wrapper1">
+        <img src="img/d3.jpg">
+        <div class="top-left">Special</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; ">House Special </h1>
+          <p>Kids under 8 eat free </p>
+          <p><i class="fa fa-clock-o" aria-hidden="true"> Take-out discounts</i> </p>
+        </div>
+      </div>
+    </div>
+  
+
+
+    <div class="col-md-4">
+      <div class="image_wrapper1"style="margin-top: 40px;">
+        <img src="img/d8.jpg">
+        <div class="top-left">Promoted</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; ">Everest Restaurant </h1>
+          <p>Houston--Texas--* Pure veg</p>
+          <p><i class="fa fa-clock-o" aria-hidden="true">  25-30 min Delivery</i> </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="image_wrapper1"style="margin-top: 40px;">
+        <img src="img/d5.jpg">
+        <div class="top-left">Promoted</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; "> Daves's BBQ </h1>
+          <p>Houston's Famous Steak </p>
+          <p>  <i class="fa fa-star-o" aria-hidden="true"></i> Chef's Special </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4">
+      <div class="image_wrapper1"style="margin-top: 40px;">
+        <img src="img/d11.jpeg">
+        <div class="top-left">Special</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; ">Thai Cuisine </h1>
+          <p>Kids under 8 eat free </p>
+          <p><i class="fa fa-clock-o" aria-hidden="true"> Take-out discounts</i> </p>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="col-md-4">
+      <div class="image_wrapper1"style="margin-top: 40px;">
+        <img src="img/d1.jpg">
+        <div class="top-left">Promoted</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; ">Stan's Restaurant </h1>
+          <p>Houston--Texas--* Pure veg</p>
+          <p><i class="fa fa-clock-o" aria-hidden="true">  25-30 min Delivery</i> </p>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="col-md-4">
+      <div class="image_wrapper1"style="margin-top: 40px;">
+        <img src="img/d5.jpg">
+        <div class="top-left">Promoted</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; "> Polo Lounge </h1>
+          <p>Houston's Famous Steak </p>
+          <p>  <i class="fa fa-star-o" aria-hidden="true"></i> Chef's Special </p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-4">
+      <div class="image_wrapper1"style="margin-top: 40px;">
+        <img src="img/d3.jpg">
+        <div class="top-left">Special</div>
+        <div class="top-right"><i class="fa fa-gratipay" aria-hidden="true"></i></div>
+
+  
+        <div class="image_wrapper-text1">
+          <h1 style="font-size: 30px; letter-spacing: 2px; ">Jack Fry's </h1>
+          <p>Kids under 8 eat free </p>
+          <p><i class="fa fa-clock-o" aria-hidden="true"> Take-out discounts</i> </p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+<!--section 4-->
+
+<section class="section pt-5 pb-5 ">
+  <div class=" text-center" style="padding-top: 35px; padding-bottom: 12px;margin-left: 300px;letter-spacing: 2px;">
+    <h5 style="font-size: 25px;">Operate food store or restaurants? <a class="redtext" href="#">Work With Us</a></h5>
+    </div>
+  </section>
+  
+
+
+  
+  <!--section-- subscription -->
+  <section class="footer pt-5 pb-5">
+      <div class="container">
+         <div class="row">
+            <div class="col-md-4 col-12 col-sm-12">
+               <h6 >Subscribe to our Newsletter</h6>
+               <form class="newsletter-form mb-1">
+                  <div class="input-group">
+                     <input type="text" placeholder="Please enter your email" class="form-control">
+    
+                     <div class="input-group-append">
+                        <button type="button" class="btn btn-inverse btn-danger">
+                        Subscribe
+                        </button>
+                     </div>
+                  </div>
+               </form>
+               <p style=" font-weight: bold; color: rgb(119, 116, 116)"><a class="text-info"  href="#">Register now</a> to get updates on <a href="#">Offers and Coupons</a></p>
+               
+
+               
+               <!--google and apple-->
+               <div class="app">
+                  <p class="mb-2" style=" font-weight: bold; color: rgb(27, 26, 26)">DOWNLOAD APP</p>
+                  
+                  <a >
+                    <img onclick="togglePlay()" style="border-radius: 4px;" class="img-fluid" src="img/google.PNG">
+                    </a>
+      
+                    
+                    
+               <!--to apple store-->
+      
+                    <a href="https://www.apple.com/iphone/" target="_blank">
+                    <img style="border-radius: 4px;" class="img-fluid" src="img/apple.PNG">
+                    </a>
+               </div>
+    
+    
+            </div>
+
+            
+          <!--First List-->
+          <div class="col-md-2 col-6 col-sm-4">
+             
+            <ul >
+             <h6 style=" font-weight: bold; color: rgb(27, 26, 26)">  About OE</h6>
+               <h6 class="text-muted">About Us</h6>
+               <h6 class="text-muted">Culture</h6>
+               <h6 class="text-muted">Blog</h6>
+               <h6 class="text-muted">Careers</h6>
+               <h6 class="text-muted">Contact</h6>
+            </ul>
+         </div>
+ 
+         <!--Second List-->
+         <div class="col-md-2 col-6 col-sm-4">
+            
+            <ul  >
+             <h6 style=" font-weight: bold; color: rgb(27, 26, 26)">For Foodies</h6>
+               <h6 class="text-muted">Community</h6>
+               <h6 class="text-muted">Developers</h6>
+               <h6 class="text-muted">Blogger Help</h6>
+               <h6 class="text-muted">Verified Users</h6>
+               <h6 class="text-muted">Code of Conduct</h6>
+            </ul>
+         </div>
+ 
+         <!--Third List-->
+         <div class="col-md-2 col-6 col-sm-4">
+           
+            <ul >
+             <h6 style=" font-weight: bold; color: rgb(27, 26, 26)" >For Restaurants</h6>
+               <h6 class="text-muted">Advertise</h6>
+               <h6 class="text-muted">Add a Restaurant</h6>
+               <h6 class="text-muted">Claim your Listing</h6>
+               <h6 class="text-muted">For Businesses</h6>
+               <h6 class="text-muted">Owner Guidelines</h6>
+            </ul>
+         </div>
+ 
+ 
+      </div>
+   </div>
+ </section>
+ 
+
+ <!--Footer-->
+ <footer class="pt-4 pb-4 text-center"   >
+   <div class="container1">
+     <p class="mt-0 mb-0" style="font-size: 12px; font-weight: bold; color: coral" >@ CopyRight 2019 Osahan Eat. All Rights Reserved</p>
+     <small class="mt-0 mb-0" style="font-weight: bold; font-size: 11px;">
+         Made With 
+       <img src="img/heart.PNG" style="height: 12px;">
+            by   
+       <a class="text-danger" target="_blank" href="https://www.instagram.com/?hl=en">Arbind Chaudhary</a>
+       <a class="text-danger" target="_blank" href="https://askbootstrap.com/">-Consultadd</a>
+     </small>
+   </div>
+   
+   </footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>

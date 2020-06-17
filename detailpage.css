@@ -1,0 +1,441 @@
+
+
+@font-face {
+    font-family: foodFont;
+    src: url('images/AlphaSausage.ttf') format('truetype');
+}
+
+
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 0px;
+}
+
+
+
+
+.detail-img{
+    object-fit: cover;
+    width:100%;
+    margin-top:0px;
+}
+
+
+
+
+.topnav1{
+    width: 100%;
+    height: 70px;
+    position: relative;
+    left: 0px;
+    background-color: whitesmoke;
+    
+}
+
+.topnav1 a{
+    position: relative;
+    top:20px;
+    color: rgb(59, 48, 48);
+    font-weight: bold;
+    margin-left: 40px;
+    text-align: center;
+    font-size: 15px;
+
+   
+}
+
+.topnav1 a:hover{
+    color:blue;
+   
+    text-decoration: underline;
+   
+}
+
+.topnav1 button{
+    float:right;
+    margin-right: 10px;
+    color: black;
+    background-color: rgb(199, 183, 183);
+    text-align: left;
+    position: relative;
+    top:15px;
+    padding-right: 20px;
+    font-weight: bold;
+}
+
+
+.greentext{
+    color:white;
+    background-color: green;
+  }
+
+
+
+
+  
+#outerbox{
+    position: relative;
+    top: 15px;
+    width: 730px;
+    overflow: hidden;
+    margin-left: 40px;
+  
+  }
+  
+  #sliderbox{
+    position: relative;
+    width: 900px;
+    animation-name: menu;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+  
+  
+  }
+  
+  #sliderbox img{
+    float: left;
+    margin-right: 8px;
+    height: 80px;
+    width: 80px;
+  }
+  
+  @keyframes menu{
+    0%{
+      left: 0px;
+    }
+    10%{
+      left:-85px;
+    }
+    20%{
+      left:-170px;
+    }
+    30%{
+      left:-255px;
+    }
+    40%{
+      left:-340px;
+    }
+    50%{
+      left:-425px;
+    }
+   60%
+   {
+    left:-510px;
+  }
+  70%
+   {
+    left:-595px;
+  }
+  80%
+   {
+    left:-680px;
+  }
+  90%
+   {
+    left:-765px;
+  }
+  100%
+   {
+    left:-850px;
+  }
+  
+  }
+
+
+
+ 
+
+
+
+
+
+
+.details{
+    width:100%;
+    height: auto;
+    float:left;
+}
+
+.recommended{
+    width: 800px;
+    float:left;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+.bestseller{
+    position: relative;
+    width: 750px;
+    height:300px;
+    margin-top: 50px;
+    margin-left: 40px;
+    float: left;
+}
+
+.bestseller-inside{
+    width: 750px;
+    height: 250px;
+    float: left;
+}
+
+.bestseller .seller{
+    width: 230px;
+    height:250px;
+    background-color: whitesmoke;
+    float:left;
+    margin-top: 30px;
+}
+
+.sellerinfo{
+    width: 200px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 15px;
+    float:left;
+    
+}
+
+.sellerinfo button.btn-xs{
+    background-color: rgb(46, 175, 46);
+    color:white;
+    border: 0px;
+    border-radius: 2px;
+}
+
+.sellerinfo button{
+    background-color: gray;
+    color:white;
+    border: 0px;
+}
+
+.sellerinfo button:hover{
+    background-color: white;
+    color:gray;
+    border: 1px solid gray;
+}
+
+
+
+.order-summary{
+    position: relative;
+    top: -600px;
+    width: 450px;
+    float:right;
+    margin-right: 20px;
+    margin-top: 10px;
+    height: auto;
+}
+.offer{
+    width: 400px;
+    height: auto;
+    background-color: white;
+    color: black;
+    float: right;
+    margin-left: 30px;;
+    border: 2px solid tomato;
+    border-radius:  8px;
+    background-color: whitesmoke;
+}
+
+.yourorder{
+    position: relative;
+    top: -5px;
+    width: 400px;
+    height: 550px;
+    float: right;
+    margin-top: 50px;
+  
+    margin-left: 30px;
+    background-color: rgb(250, 66, 34);
+    color: white;
+}
+
+.offer img{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.yourorder-inside{
+    width: 350px;
+    height: auto;
+    margin-left: 40px;
+
+}
+
+
+.row{
+    background-color: white;
+    width:100%;
+    float:left;
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.btn-group{
+    background-color: gray;
+    color: black;
+    margin-right: 20px;
+    float: right;
+    border: 0.5px solid black;
+    border-radius: 0px;
+}
+
+.btn-group button{
+    border: 1.5px solid black;
+    border-radius: 0px;
+}
+
+
+
+.btn-group button:hover{
+    background-color: orange;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.work-with-us{
+    width:100%;
+    height:150px;
+    margin-top: 50px;
+    background-color: whitesmoke;
+    float:left;
+    text-align: center;
+}
+
+.work-with-us-inside{
+    width: auto;
+    margin-top: 50px;
+}
+
+.hovertext{
+    color:red;
+}
+
+.hovertext:hover{
+    color: blue;
+}
+
+.about-section{
+    width:100%;
+    height: 300px;
+    float: left;
+    background-color: rgb(221, 216, 216);
+}
+
+.about-section-inside{
+    width: 400px;
+    height: 80%;
+    margin-top: 30px;
+    margin-left: 100px;
+    float: left;
+}
+
+.buttonsection{
+    float:left;
+    width: 400px;
+    height: auto;
+}
+
+.buttonsection input{
+    width:70%;
+    float:left;
+}
+
+.buttonsection button{
+    width:30%;
+    float:left;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.buttonsection button:hover{
+    width:30%;
+    float:left;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+}
+
+.text{
+    margin-top: 10px;
+    width:100%;
+    float: left;
+}
+
+.textwithhover{
+    font-weight: bold;
+    color:red;
+}
+
+.textwithhover:hover{
+    font-weight: bold;
+    color: rgb(6, 97, 97);
+}
+
+.bothbagdes{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: auto;
+    background-color: red;
+    vertical-align: middle;
+}
+
+.bagde{
+    position: relative;
+   
+    float: left;
+    height: 50px;
+}
+
+.badge image:hover{
+    border: 1px solid gray;
+}
+
+.about-section-column{
+    width: 200px;
+    height: 80%;
+    float: left;
+    margin-top: 30px;
+    margin-left: 40px;
+}
+
+.about-section-column a{
+    color: black;
+}
+
+.about-section-column a:hover{
+    font-style: normal;
+    color: brown;
+    text-decoration: none;
+}
+
+.about-section-column a:visited{
+    text-decoration: none;
+}
+
+
+.Quickbite{
+    position: relative;
+    top: 50px;
+
+}

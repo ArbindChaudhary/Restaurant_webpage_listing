@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="detailpage.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-grid.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick-theme.min.css">
+   
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.carousel.css">
+    <link rel="stylesheet" href="vendor/owl-carousel/owl.theme.css">
+ <title>Listing</title>
+
+</head>
+<body>
+
+        <!--Navigation Bar-->
+ <div class="bs-example shadow-sm" style="padding-right: 200px;background-color: coral;">
+    <nav class="navbar navbar-expand-md navbar-light ">
+      <a class="navbar-brand" href="#">
+        <img alt="logo" src="img/logo.PNG" style="height: 100px;">
+      </a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+       
+       <div id="navbarCollapse" class="collapse navbar-collapse">
+            <ul class="nav navbar-nav ml-auto">
+
+                 <!--Home button-->
+                <li class="nav-item active">
+                    <a href="#" style="font-weight: bold; font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54);" class="nav-link"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+                </li>
+
+                 <!--Offers button-->
+                <li class="nav-item">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link">Profile</a>
+                </li>
+
+                 <!--Restaurants button-->
+                <li class="nav-item dropdown">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54) " class="nav-link dropdown-toggle" data-toggle="dropdown">Restaurants</a>
+                    
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Listing</a>
+                        <a href="#" class="dropdown-item">Details + Cart</a>
+                        <a href="#" target="_blank" class="dropdown-item">Checkout</a>
+                    </div>
+                </li>
+
+                  <!--Pages button-->
+                  <li class="nav-item dropdown">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link dropdown-toggle" data-toggle="dropdown">Pages</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Track Order</a>
+                        <a href="#" class="dropdown-item">Invoice</a>
+                        <a href="#" class="dropdown-item">Login</a>
+                        <a href="#" class="dropdown-item">Register</a>
+                        <a href="#" class="dropdown-item">404</a>
+                        <a href="#" class="dropdown-item">Extra :)</a>
+                    </div>
+                </li>
+
+                 <!--My Account-->
+                 <li class="nav-item dropdown">
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link dropdown-toggle" data-toggle="dropdown">My Account</a>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Orders</a>
+                        <a href="#" class="dropdown-item">Offers</a>
+                        <a href="#" class="dropdown-item">Favourites</a>
+                        <a href="#" class="dropdown-item">Payments</a>
+                        <a href="#" class="dropdown-item">Addresses</a>
+                    </div>
+                </li>
+
+              
+
+                   <!--Cart-->
+                   <li class="nav-item dropdown"  >
+                    <a href="#" style="font-weight: bold;font-size: 20px;padding: 14px 16px;color: rgb(59, 54, 54)" class="nav-link dropdown-toggle" data-toggle="dropdown"><i class="fa fa-cart-arrow-down" aria-hidden="true"></i>Cart</a>
+                    <div class="dropdown-menu" >
+                        <a href="#" class="dropdown-item"><b>Arby's World Famous Chicken</b><br> 59 S Hillcroft ,Housto,Tx, USA<br>View Full Menu</a>
+
+                        <div class="dropdown-divider" ></div>
+                        <p style="padding:10px;color:indianred;">Chicken Tikka Sub 12"(30cm)*1        $314</p>
+                        <p style="padding:10px;color:indianred">Corn & Peas Salad*1                  $209</p>
+                        <p style="padding:10px;color:indianred">Veg Seekh Sub 6"(15cm)*1             $133</p>
+                        <p style="padding:10px;color:indianred">Chicken Tikka Sub 12"(30cm)*1        $314</p>
+                        <p style="padding:10px;color:indianred">Corn & Peas Sald*1                   $209</p>
+
+                        <div class="dropdown-divider"></div>
+                        <p style="padding:10px">Sub Total<br>Extra charges may apply</p>
+
+                        <div class="dropdown-divider"></div>
+                        <div class="text-center">
+                          <button type="button"  class="btn btn-secondary ">Checkout</button>
+                        </div>
+                        
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</div>
+
+
+
+ <!--background image-->
+<div style="width:100%; height:500px; position:relative;margin-top:0;">
+    <img class="detail-img" src="img/bb.PNG">
+   
+</div>
+
+
+<!--order oline and offer bar-->
+
+<nav class="topnav1">           
+    <a href="#"> Order Online </a>
+    <a href="#"> Gallary</a>
+    <a href="#"> Restaurent Info </a>
+    <a href="#"> Book A Table </a>
+    <a href="#"> Ratings & Reviews </a>
+    <button class="btn btn-primary" style="color: red"> &#37 OFFERS</button>
+    <button class="btn btn-primary" ><span style="color:green;vertical-align: middle;">&#9679;&#8414;</span> Pure Veg</button>
+    <button class="btn btn-primary" ><span style="color:red">&#10084</span> Mark as Favourite</button>
+
+</nav>
+
+
+ <!--recommended-->
+
+ <div class="details">
+    <div class="recommended">
+        <h2 style="margin-left: 40px;margin-top: 40px;">Recommended</h2>
+        <div class="col-xs-4" style= "float:left; width: 100%; height:100%; margin-top: 15px;margin-left:40px">
+            
+            <input class="form-control input-lg" id="focusedInput" type="text" placeholder="Search for dishes...">
+        </div>
+
+        <div class="most polular">
+            <h5 style="margin-left: 40px;margin-top: 90px;">Most Polular <span class="greentext">15% Off All Items</span></h5>
+            </div>
+
+
+            <!--image slider-->
+
+            <div id="outerbox">
+                <div id ="sliderbox">
+                  <img src ="img/m1.jpg"/>
+                  <img src ="img/m2.jpg"/>
+                  <img src ="img/m3.jpg"/>
+                  <img src ="img/m4.jpg"/>
+                  <img src ="img/m5.jpg"/>
+                  <img src ="img/m3.jpg"/>
+                  <img src ="img/m4.jpg"/>
+                  <img src ="img/m5.jpg"/>
+                  <img src ="img/m1.jpg"/>
+                  <img src ="img/m2.jpg"/>
+                </div>
+              </div>
+            </div>
+
+
+
+    <!--best seller-->
+
+    <div class="bestseller" >
+        <h3>Best Seller</h3>
+        <div class="bestseller-inside">
+            <div class="seller">
+                <div><img src="img/d1.jpg"></div>                        
+                <div class="sellerinfo">
+                    <span style="font-weight: bold;font-size: medium;letter-spacing: 2px;">Chef's Special</span><br>
+                    <span style="color:gray;">Continental Taste</span><br>
+                    $40
+                    <button class="btn btn-primary btn-xs"style="font-size:10px;" >new</button>
+                    <button class="btn btn-primary" style="float:right; margin-bottom: 25px;">ADD</button>
+                </div>
+            </div>
+
+
+            <div class="seller" style="margin-left: 30px;margin-right: 30px;">
+                <div><img src="img/d2.jpg"></div>                        
+                <div class="sellerinfo">
+                    <span style="font-weight: bold;font-size: medium;letter-spacing: 2px;">Famous Dave's BBQ</span><br>
+                    <span style="color:gray;">American</span><br>
+                    $55
+                    <button class="btn btn-primary btn-xs"style="font-size:10px;" >new</button>
+                    <button class="btn btn-primary" style="float:right; margin-bottom: 25px;">ADD</button>
+                </div>
+            </div>
+
+
+
+            <div class="seller">
+                <div><img src="img/d3.jpg"></div>                        
+                <div class="sellerinfo">
+                    <span style="font-weight: bold;font-size: medium;letter-spacing: 2px;"> Vegetarian Special</span><br>
+                    <span style="color:gray;">Indian</span><br>
+                    $50
+                    <button class="btn btn-primary btn-xs"style="font-size:10px;">new</button>
+                    <button class="btn btn-primary" style="float:right; margin-bottom: 25px;">ADD</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+<div class="order-summary">
+    <div class="offer">
+        <img src="img/logo.png" style="width:80px; height:80px; margin-top: 7px; ">
+        <div style="float:right; margin-right: 50px;">
+            <span style="font-size:30px;margin-left: 10px;font-weight:bold;color: black"> 
+                OFFER 
+                <p>
+                <span style="font-size:15px;">Use Coupen <span style="color: red">05foodcorner55</span></span> </span>
+        </div>  
+    </div>
+
+    <div class="yourorder">
+        <h4 style="font-weight: bold; margin-left: 30px; margin-top: 40px;">Your Order</h4>
+        <p style="font-weight: bold; margin-left: 30px;"> 6 ITEMS</p>
+
+        <div class="yourorder-inside"> 
+            <div class="row">
+                <span style="color:green;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span> 
+                <span style="vertical-align: middle;color:black">Shahi kobab</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$13</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+            <div class="row">
+                <span style="color:red;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span> 
+                <span style="vertical-align: middle;color:black">Chicken Tikka Sub</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$12</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+            <div class="row">
+                <span style="color:green;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span> 
+                <span style="vertical-align: middle;color:black">Tandoori Roti</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$16</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">4</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+            <div class="row">
+                <span style="color:green;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span> 
+                <span style="vertical-align: middle;color:black">Mutton Biryani</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$14</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+            <div class="row">
+                <span style="color:red;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span> 
+                <span style="vertical-align: middle;color:black">Chicken Biryani</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$18</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+            <div class="row">
+                <span style="color:green;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span> 
+                <span style="vertical-align: middle;color:black">Veg Biryani</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$12</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">3</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+            <div class="row">
+                <span style="color:green;margin-left: 10px;vertical-align: middle;">&#9679;&#8414;</span>
+                <span style="vertical-align: middle;color:black">laddu</span>
+                <span style="float:right;margin-right: 5px;vertical-align: middle;">$31</span>
+                <div class="btn-group" role="group" aria-label="First group">
+                    <button type="button" class="btn btn-secondary">+</button>
+                    <button type="button" style="background-color: grey;" class="btn btn-secondary">1</button>
+                    <button type="button" class="btn btn-secondary">-</button>
+                </div>                        
+            </div>
+
+            <div class="row" style="margin-top: 25px; border-bottom: 0px;"> 
+                <img src="img/logo.png" style="width:80px; height:80px; float:left;"> 
+                <span style="float:right; margin-right: 10px;text-align: right; ">
+                    
+                    <span style="font-size: 20px;font-weight: bold; ">Subtotal: </span>
+                    <span style="font-size: 20px;font-weight: bold;color: red;"> $87</span>
+                    <br>
+                    <span style="font-size: 15px;">Extra charges may apply</span>
+                    <br>
+                    <span style="font-size: 15px;font-weight: bold; ">You have saved $25 on the bill</span>
+                </span>
+            </div>
+
+            <button type="button" class="btn btn-lg" style="color: white;background-color: rgb(17, 161, 137);
+            margin-top: 25px; float: left; width: 400px;; margin-left: -40px; border: 1px solid white;"> Checkout</button>
+        </div>
+    </div>
+
+
+</div>
+
+
+</div>
+
+<div class="work-with-us">
+<div class="work-with-us-inside">
+    <h3> Operate food store or restaurents? <span class="hovertext">Work with us</span></h3>
+</div>
+</div>
+<div class="about-section">
+<div class="about-section-inside">
+    <h5><strong>SUBSCRIBE TO OUR NEWSLETTER</strong></h5>
+    <div class="buttonsection">
+        <input class="form-control" type="text" placeholder="Enter your email id">
+        <button class="btn btn-block">Subscribe</button>
+    </div>
+    <div class="text">
+        <span class="textwithhover">Register Now</span>
+        to get updates on <span class="textwithhover" >Offers and Coupons</span>
+
+        <br>
+        <br>
+        <strong>DOWNLOAD APP</strong>
+        <div class=bothbagdes>
+            <div class="bagde">
+                <img src="img/google.png" style="height:48px;">
+            </div>
+            <div class="bagde">
+                <img src="img/applelogo.png">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="about-section-column">
+    <h5><strong>ABOUT OE </strong></h5>
+    <a>About us</a><br>
+    <a>Culture</a><br>
+    <a>Blog</a><br>
+    <a>Careers</a><br>
+    <a>Contact</a>
+</div>
+<div class="about-section-column">
+    <h5><strong>FOR FOODIES </strong></h5>
+    <a>Community</a><br>
+    <a>Developers</a><br>
+    <a>Blogger Help</a><br>
+    <a>Verified Users</a><br>
+    <a>Code of Conduct</a>
+</div>
+<div class="about-section-column">
+    <h5><strong>FOR RESTAURENTS </strong></h5>
+    <a>Advertise</a><br>
+    <a>Add a Restaurent</a><br>
+    <a>Claim your Listing</a><br>
+    <a>For Business</a><br>
+    <a>Owner Guidelines</a>
+</div>
+</div>
+
+
+
+
+<div class="Quickbite">
+    <ul>
+      <h3 style="font-weight: bold;color:red">Quick Bite</h3>
+      <h5 class="text-muted"> Chicken Tikka Sub</h5>
+      <h5 class="text-muted"> Cheese Corn Roll</h5>
+      <h5 class="text-muted"> Cheese Spinach Roll</h5>
+      <h5 class="text-muted"> Veg Spring Roll</h5>
+      <h5 class="text-muted"> Honey Chilli Potato</h5>
+
+
+    </ul>>
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+
+
+
+
+ 
